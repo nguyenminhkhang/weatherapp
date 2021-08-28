@@ -1,0 +1,85 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    background-image: url(https://source.unsplash.com/1600x900/?nature,water);
+}
+
+#city {
+    padding-top: 20px;
+}
+
+#navtext {
+    font-weight: bolder;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.info {
+    text-align: center;
+}
+
+#navtext a {
+    text-decoration: none !important;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    background-color: black;
+    
+}
+
+#navtext {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#navtext p {
+    padding: 0 50px 0 50px;
+}
+
+.info {
+    margin-top: 100px;
+    /* border: 1px solid black; */
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgba(17, 16, 16, 0.9)
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+input {
+    width: 80%;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    background-color: rgba(51, 35, 35, 0.678);
+    color: white;
+
+}
+
+button {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+#name {
+    display: flex;
+    margin: auto;
+}

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+#navtext a {
+    text-decoration: none !important;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    background-color: black;
+    
+}
+
+#navtext {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#navtext p {
+    padding: 0 50px 0 50px;
+}
+
+#vid {
+    margin-top: 50px;
+}
+
+.section {
+    padding-top: 20px;
+}
+
+.description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#header {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.license {
+    margin-top: 20px;
+}

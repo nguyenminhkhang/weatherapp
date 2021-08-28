@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <script type="text/javascript"  src="//cdn.aerisjs.com/aeris.min.js"></script>
+    <link rel="stylesheet"  href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.2/leaflet.css"/>
+    <script type="text/javascript"  src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.2/leaflet.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <div id="navbar">
+            <div id="navtext">
+                <div> 
+                    <a href="./sources/source.html">
+                        <p>Sources</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="../project/index.html">
+                        <i class="fas fa-sun-cloud icon-4x"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <p>About</p>
+                    </a>
+                </div>
+            </div>
+    </nav>
+    
+
+    <div class="info">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Type in city name ...">
+            <button class="search">🔎</button>
+        </div>
+        <div class="weather-info">
+            <div style="display: inline-block;">
+                <h2 class="city">Weather in Hanoi</h2>
+            </div>
+            <div style="display: inline-block;">
+                <h2 class="country">, Vietnam</h2> 
+            </div>
+            <h1 class="temp">31°C</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity: 60%</div>
+            <div class="wind">Wind speed: 11 km/h</div>
+        </div>
+    </div>
+
+    <div id="map-canvas" style="width: 800px; height: 600px;"></div>
+    <script src="aeris.js"></script>
+    
+    <script src="./style.js"></script>
+</body>
+</html>
+
